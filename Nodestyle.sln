@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owinAPIService", "owinAPIService\owinAPIService.csproj", "{9768153F-ED4C-4D5C-953F-68CAA13CFB20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIClient", "APIClient\APIClient.csproj", "{52DF50F9-9603-435D-BB5F-C9D311CE1385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9768153F-ED4C-4D5C-953F-68CAA13CFB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9768153F-ED4C-4D5C-953F-68CAA13CFB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9768153F-ED4C-4D5C-953F-68CAA13CFB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9768153F-ED4C-4D5C-953F-68CAA13CFB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DF50F9-9603-435D-BB5F-C9D311CE1385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DF50F9-9603-435D-BB5F-C9D311CE1385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DF50F9-9603-435D-BB5F-C9D311CE1385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DF50F9-9603-435D-BB5F-C9D311CE1385}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C882DEA-80BD-4F59-A5F0-A2F53932F0BB}
+	EndGlobalSection
+EndGlobal
