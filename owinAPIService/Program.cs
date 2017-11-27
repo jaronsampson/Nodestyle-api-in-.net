@@ -1,5 +1,7 @@
 ﻿using System;
 using Microsoft.Owin.Hosting;
+using System.Data.Entity;
+using owinAPIService.Model;
 
 namespace owinAPIService
 {
@@ -7,6 +9,12 @@ namespace owinAPIService
     {
         static void Main(string[] args)
         {
+            // Set up and seed the database:
+            Console.WriteLine("Initializing and seeding database...");
+            Database.SetInitializer(new ApplicationDbInitializer());
+            var db = new ApplicationDbContext();
+            Console.WriteLine("Initializing and seeding database with company records...");
+
             // Specify the URI to use for the local host:
             string baseUri = "http://localhost:8080";
 
